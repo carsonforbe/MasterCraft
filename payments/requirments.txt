@@ -1,0 +1,10 @@
+Django>=5.0,<6.0
+djangorestframework>=3.14.0
+paystackapi>=1.0.0
+gunicorn>=21.2.0
+
+# Optional: For environment variable handling
+python-decouple>=3.8
+
+# For PostgreSQL support (optional if not using SQLite)
+psycopg2-binary>=2.9.9
